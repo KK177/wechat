@@ -1,0 +1,15 @@
+platform :ios,'11.0'
+
+target 'WeChat-Demo' do
+pod 'AFNetworking'
+pod 'SDAutoLayout'
+pod 'JMessage'
+pod 'YUChineseSorting'
+pod 'SDWebImage'
+
+
+ target 'WeChat-DemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+end
+end
